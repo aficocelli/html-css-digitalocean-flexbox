@@ -4,15 +4,31 @@
   margin:0;
   padding:0;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+}
 
 /* section loghi */
 .loghi{
   text-align: center;
   background-color: #F3F5F9;
+  padding: 50px 0;
+}
+.loghi h4{
+  color:#7A859F;
+  font-size:18px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.loghi a{
+  text-decoration: none;
+  font-size:14px;
+  font-weight: 500;
+  color:#0B72FF;
 }
 .container{
   width:70%;
-  margin:0 auto;
+  margin:20px auto;
   display:flex;
   justify-content:center;
 }
@@ -27,6 +43,7 @@
 
   .container{
     flex-wrap: wrap;
+    width:60%;
   }
 
   .container img{
