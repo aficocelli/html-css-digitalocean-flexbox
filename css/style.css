@@ -7,12 +7,14 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+section{
+  padding: 50px 0;
+}
 
 /* section loghi */
 .loghi{
   text-align: center;
   background-color: #F3F5F9;
-  padding: 50px 0;
 }
 .loghi h4{
   color:#7A859F;
@@ -27,7 +29,7 @@ body{
   color:#0B72FF;
 }
 .container{
-  width:70%;
+  width:90%;
   margin:20px auto;
   display:flex;
   justify-content:center;
@@ -35,6 +37,7 @@ body{
 .container img{
   margin: 0 10px;
   width: calc((100% / 6) - 20px);
+
 }
 
 /* responsive */
@@ -43,11 +46,50 @@ body{
 
   .container{
     flex-wrap: wrap;
-    width:60%;
   }
 
   .container img{
     width:calc((100% / 2) - 20px);
+    padding:20px;
 
   }
+}
+
+/* deploy section */
+.deploy{
+  text-align: center;
+}
+.deploy h2{
+  color: #031C4E;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom:10px;
+}
+.deploy p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #75809C;
+  margin-bottom: 50px;
+}
+.deploy .container{
+  flex-direction: column;
+}
+
+.small-container{
+  width:70%;
+  background-color:red;
+  margin: 0 auto;
+  display:flex;
+}
+.list{
+  width:20%;
+  height:200px;
+  background-color: yellow;
+  border:1px solid black;
+}
+.peculiar{
+  width:80%;
+  height:200px;
+  background-color: yellow;
+  border:1px solid black;
 }
