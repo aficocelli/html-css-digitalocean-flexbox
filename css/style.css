@@ -9,11 +9,17 @@ body{
 }
 section{
   padding: 50px 0;
+  text-align: center;
+}
+.container{
+  width:90%;
+  margin:20px auto;
+  display:flex;
+  justify-content:center;
 }
 
 /* section loghi */
 .loghi{
-  text-align: center;
   background-color: #F3F5F9;
 }
 .loghi h4{
@@ -28,16 +34,10 @@ section{
   font-weight: 500;
   color:#0B72FF;
 }
-.container{
-  width:90%;
-  margin:20px auto;
-  display:flex;
-  justify-content:center;
-}
+
 .loghi .container img{
   margin: 0 10px;
   width: calc((100% / 6) - 20px);
-
 }
 
 /* responsive */
@@ -51,14 +51,11 @@ section{
   .loghi .container img{
     width:calc((100% / 2) - 20px);
     padding:20px;
-
+    height:150px;
   }
 }
 
 /* deploy section */
-.deploy{
-  text-align: center;
-}
 .deploy h2{
   color: #031C4E;
   font-size: 32px;
@@ -82,9 +79,6 @@ section{
   margin: 0 auto;
   display:flex;
   justify-content: space-between;
-}
-.list{
-
 }
 .peculiar{
   width:60%;
@@ -110,6 +104,7 @@ section{
 .box{
   width:50%;
   text-align:left;
+  padding:5px;
 }
 .box h4{
   padding: 10px 0;
