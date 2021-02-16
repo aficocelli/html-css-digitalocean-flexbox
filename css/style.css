@@ -8,17 +8,29 @@
 /* section loghi */
 .loghi{
   text-align: center;
+  background-color: #F3F5F9;
 }
 .container{
-  width:90%;
-  background-color: red;
+  width:70%;
   margin:0 auto;
   display:flex;
   justify-content:center;
 }
-.img-logo{
-  height:100px;
-  width:200px;
-  background-color: yellow;
-  border:1px solid black;
+.container img{
+  margin: 0 10px;
+  width: calc((100% / 6) - 20px);
+}
+
+/* responsive */
+
+@media screen and (max-width:767px){
+
+  .container{
+    flex-wrap: wrap;
+  }
+
+  .container img{
+    width:calc((100% / 2) - 20px);
+
+  }
 }
